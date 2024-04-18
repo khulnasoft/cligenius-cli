@@ -4,11 +4,11 @@ on:
   schedule:
     - cron: "0 0 * * *"
   issue_comment:
-    types:
+    cligenius:
       - created
       - edited
   issues:
-    types:
+    cligenius:
       - labeled
 
 jobs:

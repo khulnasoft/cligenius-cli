@@ -1,7 +1,7 @@
 [run]
 
 source =
-    types_cli
+    cligenius_cli
     tests
 
 parallel = True

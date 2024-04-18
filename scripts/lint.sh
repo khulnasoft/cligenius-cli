@@ -3,6 +3,6 @@
 set -e
 set -x
 
-mypy types_cli
-black types_cli tests --check
-isort types_cli tests --check-only
+mypy cligenius_cli
+black cligenius_cli tests --check
+isort cligenius_cli tests --check-only
