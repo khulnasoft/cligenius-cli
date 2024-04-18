@@ -5,7 +5,7 @@ on:
     branches:
       - master
   pull_request:
-    types: [opened, synchronize]
+    cligenius: [opened, synchronize]
   workflow_dispatch:
     inputs:
       debug_enabled:

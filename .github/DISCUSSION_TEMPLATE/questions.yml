@@ -73,8 +73,8 @@ body:
         Write a short description telling me what you are doing, what you expect to happen, and what is currently happening.
       placeholder: |
         * Create a script with `argparse` in a file `main.py`.
-        * Run `types main.py run`.
-        * I expected it to automatically convert `argparse` and run it as a Types application, but it just runs the main function.
+        * Run `cligenius main.py run`.
+        * I expected it to automatically convert `argparse` and run it as a Cligenius application, but it just runs the main function.
     validations:
       required: true
   - type: dropdown
