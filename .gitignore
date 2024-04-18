@@ -1,0 +1,8 @@
+dist
+__pycache__
+*.pyc
+types_cli.egg-info
+.pytest_cache
+.coverage
+.coverage.*
+poetry.lock
