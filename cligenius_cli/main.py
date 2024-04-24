@@ -176,7 +176,7 @@ def callback(
 
     $ cligenius --install-completion
 
-    https://cligenius.tiangolo.com/
+    https://cligenius.khulnasoft.com/
     """
     maybe_update_state(ctx)
 
