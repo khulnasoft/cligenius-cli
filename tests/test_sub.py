@@ -62,7 +62,15 @@ def test_script_hello_name_formal():
 
 def test_script_bye():
     result = subprocess.run(
-        ["coverage", "run", "-m", "cligenius_cli", "tests/assets/sample.py", "run", "bye"],
+        [
+            "coverage",
+            "run",
+            "-m",
+            "cligenius_cli",
+            "tests/assets/sample.py",
+            "run",
+            "bye",
+        ],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
         encoding="utf-8",
@@ -101,7 +109,14 @@ def test_script_help():
 
 def test_not_python():
     result = subprocess.run(
-        ["coverage", "run", "-m", "cligenius_cli", "tests/assets/not_python.txt", "run"],
+        [
+            "coverage",
+            "run",
+            "-m",
+            "cligenius_cli",
+            "tests/assets/not_python.txt",
+            "run",
+        ],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
         encoding="utf-8",
