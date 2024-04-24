@@ -7,3 +7,4 @@ cligenius_cli.egg-info
 .coverage.*
 poetry.lock
 env
+.venv
